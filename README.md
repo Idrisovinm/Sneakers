@@ -5,7 +5,7 @@ Vue Router
 TailwindCSS
 Axios
 @formkit/auto-animate
-Composition API / Options API
+Composition API 
 ESLint
 Prettier
 
