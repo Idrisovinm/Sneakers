@@ -1,4 +1,15 @@
-# vue-sneakers
+⚙️ Стэк технологий:
+
+Vue 3
+Vue Router
+TailwindCSS
+Axios
+@formkit/auto-animate
+Composition API / Options API
+ESLint
+Prettier
+
+# sneakers
 
 This template should help get you started developing with Vue 3 in Vite.
 
