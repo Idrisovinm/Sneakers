@@ -4,11 +4,9 @@ import axios from 'axios'
 import debounce from 'lodash.debounce';
 import CardList from '../components/CardList.vue'
 
-
 const { addToCart, removeFromCart, cart } = inject('cart')
 
 const items = ref([])
-
 const filters = reactive({
   searchQuery: '',
   sortBy: 'title'
