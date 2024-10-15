@@ -1,7 +1,6 @@
 <script setup>
 import axios from 'axios'
 import { ref, computed, inject } from 'vue'
-
 import DrawerHead from './DrawerHead.vue'
 import CartItemList from './CartItemList.vue'
 import InfoBlock from './InfoBlock.vue'
