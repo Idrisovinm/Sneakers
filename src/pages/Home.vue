@@ -54,7 +54,7 @@ const fetchFavorites = async () => {
     const { data: favorites } = await axios.get('https://6ad7cdaffc86e3ba.mokky.dev/favorites')
 
     items.value = items.value.map((item) => {
-      const favorite = favorites.find((favorite) => favorite.productId === item.id)
+      const favorite = favorites.find((favorite) => favorite.parentId === item.id)
 
       if (!favorite) {
         return item
