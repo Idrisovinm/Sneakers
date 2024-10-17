@@ -15,8 +15,8 @@ defineProps({
           <h2 class="text-xl font-bold uppercase">Vue Sneakers</h2>
           <p class="text-slate-400">Магазин лучших кроссовок</p>
         </div>
-      </div></router-link
-    >
+      </div>
+    </router-link>
 
     <ul class="flex items-center gap-10">
       <li
@@ -30,8 +30,8 @@ defineProps({
         ><li class="flex items-center gap-3 cursor-pointer text-gray-500 hover:text-black">
           <img src="/heart.svg" alt="Heart" />
           <b>Закладки</b>
-        </li></router-link
-      >
+        </li>
+      </router-link>
       <li class="flex items-center gap-3 cursor-pointer text-gray-500 hover:text-black">
         <img src="/profile.svg" alt="Profile" />
         <b>Профиль</b>
